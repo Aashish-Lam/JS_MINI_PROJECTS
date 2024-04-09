@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.buttongroup{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
+.button{
+
+    height: 10em;
+    width: 10em;
+
+}
+#red{
+    background-color: #dc143c;
+
+}
+#green{
+    background-color: #b1e571;
+}
+#yellow{
+    background-color: #f9f939;
+
+}
+#grey{
+    background-color: #949595;
+}
