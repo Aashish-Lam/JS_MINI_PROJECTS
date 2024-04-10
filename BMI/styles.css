@@ -1,0 +1,39 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgb(137, 207, 207);
+}
+.inputfield{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+button{
+    height: 5em;
+    width: 5em;
+    border: 0px solid black;
+    border-radius: 8% ;
+    background-color: bisque;
+   
+
+}
+button:hover{
+    background-color: aquamarine;
+}
+input{
+    height: 5em;
+    width: 15em;
+    border: 0px solid black;
+    border-radius: 2em ;
+    background-color: rgb(235, 230, 223);
+    text-align: center;
+}
+.BMIweight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16em;
+    
+}
