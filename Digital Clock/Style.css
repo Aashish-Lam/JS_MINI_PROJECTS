@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+body{
+    font-family: "Bungee Spice", sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    background-color: #322214;
+    text-align: center;
+}
+.center{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+}
+#clock{
+    font-size: 20px;
+    background-color: #93A3B1;
+    padding: 7vh 10vw;
+    border-radius: 20px;
+   
+}
