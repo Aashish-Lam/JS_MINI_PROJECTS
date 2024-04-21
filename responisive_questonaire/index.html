@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz prac</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+        .container{
+            margin-top: 10em;
+      display: grid;
+      grid-template-columns: 1fr;  /* One column for all elements */
+      grid-template-rows: repeat(2, auto);  /* Two rows with automatic height based on content */
+      place-items: center;
+      gap: 2em;
+      font-size: x-large;
+        }
+        select{
+            border: 2px solid rgb(218, 54, 54);
+            border-radius:20em ;
+            background-color: #388697;
+           color: #FFFD77;
+           width: 12em;
+           height: 4em;
+
+        }
+        header{
+            text-align: center;
+            font-size: larger;
+        }
+    
+    </style>
+</head>
+<body style="background-color: #271033; color: #FFFD77;">
+    <header>Simple quiz questions</header>
+    <div >
+        <form action="" class="container"  >
+            <div>
+                <label for="q1">
+                    What is the capital of France?
+                    <select name="q1">
+                       <option value="volvo">London</option>
+                       <option value="saab">Paris</option>
+                        <option value="mercedes">Berlin</option>
+                        <option value="audi">Rome</option>
+                    </select>
+            </div>
+                <div>
+                    <label for="q1">
+                        What is the largest ocean on Earth?
+                        <select name="q2">
+                           <option value="volvo">Atlantic Ocean</option>
+                           <option value="saab">Pacific Ocean</option>
+                            <option value="mercedes">Indian Ocean</option>
+                            <option value="audi">Arctic Ocean</option>
+                        </select>
+                </div>
+                <button type="submit" class="button"> submit</button>
+        </form>
+    </div>
+</body>
+</html>
